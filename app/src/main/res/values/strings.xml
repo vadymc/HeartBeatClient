@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HeartBeatClient</string>
+    <string name="main_screen_text">Heart Beat Client</string>
+    <string name="default_notification_channel_name">Notification events</string>
 </resources>

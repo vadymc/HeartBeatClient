@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "692547235593",
+    "firebase_url": "https://heartbeatpublisher.firebaseio.com",
+    "project_id": "heartbeatpublisher",
+    "storage_bucket": "heartbeatpublisher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692547235593:android:fe4125841ef9e203",
+        "android_client_info": {
+          "package_name": "vadc.heartbeatclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692547235593-b7rvv1vmm4kgfscdc795g80bpd16fvgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkAZJ0lGYkoV_XVskc_zIjcfxR95FbA6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
