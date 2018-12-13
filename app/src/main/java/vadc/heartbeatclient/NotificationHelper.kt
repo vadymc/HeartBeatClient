@@ -23,16 +23,16 @@ class NotificationHelper(ctx: Context) : ContextWrapper(ctx) {
         manager.createNotificationChannel(channel)
     }
 
-    fun notify(title: String, body: String) {
-        manager.notify(1001, buildNotification(title, body))
-    }
-
-    private fun buildNotification(title: String, body: String): Notification {
+    fun buildNotification(title: String, body: String): Notification {
         return Notification.Builder(applicationContext, channel)
             .setContentTitle(title)
             .setContentText(body)
             .setSmallIcon(android.R.drawable.stat_notify_chat)
             .setAutoCancel(true)
             .build()
+    }
+
+    fun notify(title: String, body: String) {
+        manager.notify(1001, buildNotification(title, body))
     }
 }

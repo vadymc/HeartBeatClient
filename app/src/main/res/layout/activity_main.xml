@@ -13,7 +13,11 @@
         android:rowCount="7"
         android:columnCount="2"
         android:orientation="horizontal">
-
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:text="send" />
     </GridLayout>
 
 </android.support.constraint.ConstraintLayout>
